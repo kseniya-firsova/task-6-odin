@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Слайдер</title>
-        <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Слайдер</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="slider">
-  <div class="slides">
+  <div class="slider">
     <div class="slide active"><img src="антуриум.jpeg" alt="Изображение 1"></div>
     <div class="slide"><img src="бокарнея.jpeg" alt="Изображение 2"></div>
     <div class="slide"><img src="венерина мухоловка.jpeg" alt="Изображение 3"></div>
@@ -17,20 +16,10 @@
     <div class="slide"><img src="колеус.jpeg" alt="Изображение 6"></div>
     <div class="slide"><img src="роза.jpeg" alt="Изображение 7"></div>
     <div class="slide"><img src="толстянка.jpeg" alt="Изображение 8"></div>
+
+    <button class="prev" aria-label="Предыдущий слайд">❮</button>
+    <button class="next" aria-label="Следующий слайд">❯</button>
   </div>
-  <button class="prev" aria-label="Предыдущий слайд">❮</button>
-  <button class="next" aria-label="Следующий слайд">❯</button>
-  <div class="dots">
-    <span class="dot active" data-index="0"></span>
-    <span class="dot" data-index="1"></span>
-    <span class="dot" data-index="2"></span>
-    <span class="dot" data-index="3"></span>
-    <span class="dot" data-index="4"></span>
-    <span class="dot" data-index="5"></span>
-    <span class="dot" data-index="6"></span>
-    <span class="dot" data-index="7"></span>
-  </div>
-</div>
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
